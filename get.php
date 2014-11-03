@@ -1,6 +1,9 @@
 <?php
 $ch = curl_init();
-$url = "http://api.wunderground.com/api/d579e3a763d88265/conditions/q/WA/Snoqualmie.json";
+
+d579e3a763d88265
+
+$url = "http://api.wunderground.com/api//conditions/q/WA/Snoqualmie.json";
 $headers = array('X-nl-protocol-version: me');
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
