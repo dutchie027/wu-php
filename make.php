@@ -1,5 +1,5 @@
 <?php
-$fname = "C:/scripts/wu-php/trunk/weather.rrd";
+$fname = __DIR__ . "/weather.rrd";
 
 $opts = array(
 	"DS:temp_f:GAUGE:600:-20:120",
